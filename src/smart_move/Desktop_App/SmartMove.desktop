@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=true
+TerminalOptions=bash
+Exec=bash -c "source /opt/ros/noetic/setup.bash; source /home/ayushg/calgary_ws/devel/setup.bash; rosrun rviz rviz -d /home/ayushg/calgary_ws/src/mpu_6050_driver/rviz_config.rviz"
+Icon=/home/ayushg/calgary_ws/src/mpu_6050_driver/smart_move.jpeg
+Name=SmartMove
